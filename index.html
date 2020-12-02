@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midhun Joseph</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="images/midhun.jpg" type="image/gif" sizes="16x16">
+    
+</head>
+<body>
+    <header style="position: fixed;width: 100%; z-index: 1;background-color:#1b5e20">
+        <div class="row">
+            <div class="col-md-6 col-9 p-3 pl-5">
+                <h2 class="text-white">Midhun Joseph</h2>
+            </div>
+            <div class="col-md-6 col-3 my-auto">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#section-home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#section-about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#section-experience">Experience</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#section-hire">Contact</a>
+                          </li>
+                      </ul>
+                      
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <section  id="section-home" style="padding-top: 7em; background-color:#00c853;">
+        <div class="container-fluid">
+            <div class="row align-items-center" >
+                <div class=" col-md-6">
+                    <img src="images/midhun.jpg" alt="photo" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-white pt-4">MCA graduate passout 2020<br>And I'm a fresheer</h4>
+                    <a class="btn btn-danger" href="#section-hire" style="background-color: rgb(172, 12, 12);">Hire me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-4 "  id="section-about" style="background-color:#00c853;">
+      <div class="container-fluid">
+        <h1 class="text-center text-white p-5">About</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-white p-1" style="font-size: 1.1em;">
+              I am Midhun Joseph and have previously worked in NeSTIT as a GIS Engineer. I am graduated from Mahatma Gandhi University with MCA and passout in 2020.
+              Proficient in JAVA, Node js, HTML, Bootstrap and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements 
+              into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
+            </p>
+            <p class="text-white p-1" style="font-size: 1.1em;">
+              Anytime is a good time to contact me
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-4 " id="section-experience" style="background-color:#00c853;">
+      <div class="container-fluid">
+        <h1 class="text-center text-white p-5">Experience</h1>
+        <div class="row">
+          <div class=" col-12 col-md-12 my-auto">
+            <a href="https://nestit.net/" style="text-decoration: none;" class="text-dark">
+            <div class="card text-center p-3 mx-auto " style="width: 16rem;height: 19em;">
+              <img src="images/nest.jpg"
+              class="card-img-top" alt="image" style="height: 8em;">
+              <div class="card-body">
+                <h5 class="card-title">NeSTIT</h5>
+                <p class="card-text">Worked as a GIS Engineer in Nest IT  as on 2017 to  2018</p>
+                
+              </div>
+            </div>
+            </a>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <section class="p-4 " id="section-hire" style="background-color: #00c853;">
+      <div class="container">
+        <h1 class="text-center text-white p-5">Hire me</h1>
+        <div class="row text-white">
+          <div class="col-md-12">
+            <form id="submit-form" action="">
+            
+              <div class="form-group ">
+                <label for="fname">company Name</label>
+                <input type="text" id="fname" name="company_name" class="form-control" placeholder="company name..">
+              </div>
+              <div class="form-group ">
+                <label for="contact">Contact Number</label>
+                <input type="tel"  id="com-tel" name="contact_number" class="form-control" placeholder="Mobile">
+              </div>
+            
+              <div class="form-group">
+                <label for="designation">Designation</label>
+                <input type="text" class="form-control" id="designation" name="designation" placeholder="Designation">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="msg1" cols="30" rows="10" placeholder="Type Message Here..."></textarea>
+              </div>
+              <div class="form-group   text-center">
+                <input type="submit" class="btn text-white" style="width: 100%; background-color: rgb(172, 12, 12);" value="Send Message"></input>
+              </div>
+            
+          </form>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row ">
+          <div class="col text-center text-white pt-2">
+            <a href="https://www.facebook.com/midhun.joseph.733" style="text-decoration: none;"class="text-white">
+              <i class= " pl-5 fab fa-facebook-square fa-3x" ></i></a>
+            <a href="https://www.instagram.com/midhun2906/" style="text-decoration: none;"class="text-white">
+              <i class="pl-5 fab fa-instagram-square fa-3x" ></i></a>
+            <a href="https://www.linkedin.com/in/midhun-joseph-87a483185/" style="text-decoration: none;"class="text-white">
+              <i class="pl-5 fab fa-linkedin fa-3x" ></i></a>
+           
+            
+              <h5 class="pt-2 text-center text-white ">Midhun © Copyright 2020. All rights reserved</h5> 
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    <script>
+      $(document).ready(function(){
+    
+    $("#submit-form").validate({
+   
+       rules:{
+           company_name:{
+               required:true,
+               minlength:4
+           },
+           contact_number:{
+               required:true,
+               minlength:10,
+           },
+           designation:{
+               required:true,
+               minlength:2
+           }
+       },
+       messages:{
+           company_name:{
+               required:"field required",
+               minlength:"enter 4 char"
+           }
+       },
+       submitHandler: function(form) {
+        $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbzOt2n6uQevQ-H_C4TP0GE5jbPHY9dM0tHaIwe5Qw/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+    
+              }
+          })
+      
+      
+      }   
+
+
+
+
+   })
+
+})
+
+
+
+
+     /* $("#submit-form").submit((e)=>{
+        e.preventDefault()   
+           if($("#submit-form").validate()) 
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbzOt2n6uQevQ-H_C4TP0GE5jbPHY9dM0tHaIwe5Qw/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+    
+              }
+          })
+          
+      })*/
+    </script>
+    
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/3629701212.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+
+
+</body>
+</html>
